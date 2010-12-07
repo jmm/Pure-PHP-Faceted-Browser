@@ -28,7 +28,7 @@ This is a demo of a faceted browser implemented from scratch in pure PHP.  Not u
 </p>
 
 <p>
-All of the data used in this demo is completely made up, except for the make and model names.  Because the data is randomly generated it may be non-sensical.  Some things that aren't particularly helpful are deliberately included in the UI to more fully demonstrate the sofware.  For example, it's not likely to be very helpful to choose a maximum MPG, or a minimum price.  The Color facet is configured to show empty terms to demonstrate that option.
+All of the data used in this demo is completely made up, except for the make and model names.  Because the data is randomly generated it may be non-sensical.  Some things that may not be particularly helpful are deliberately included in the UI to more fully demonstrate the sofware.  For example, it's not likely to be very helpful to choose a maximum MPG.  The Color facet is configured to show empty terms to demonstrate that option.
 </p>
 
 <p>
