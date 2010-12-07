@@ -1,0 +1,74 @@
+
+
+body {
+
+  background-color: #FFFFFF;
+
+  color: #000000;
+
+  font-size: 1em;
+
+  font-family: "Verdana", sans-serif;
+
+}
+
+
+#primary_layout {
+
+  position: relative;
+
+}
+
+
+#primary_document_heading,
+#primary_content_heading {
+
+  font-size: 1.2em;
+
+  font-weight: bold;
+
+}
+
+
+#primary_nav {
+
+  position: absolute;
+
+  top: -1em;
+
+  right: 2em;
+
+  text-align: right;
+
+}
+
+
+#primary_nav ul {
+
+  list-style-type: none;
+
+}
+
+
+#primary_nav .nav_item {
+
+  display: inline;
+
+  margin: 0 0.5em 0 0;
+
+}
+
+
+#primary_nav .nav_item a {
+
+  color: #406080;
+
+}
+
+
+
+#primary_content {
+
+  line-height: 1.4;
+
+}

@@ -1,0 +1,32 @@
+
+
+@import "section.css";
+
+
+#primary_layout {
+
+  width: 640px;
+
+  margin: 0 auto;
+
+  border: 1px #7F7F7F;
+
+  border-style: none solid;
+
+  padding: 2em 1em;
+
+}
+
+
+#primary_content {
+
+  line-height: 1.4;
+
+}
+
+
+#demos .demo {
+
+  margin: 0 0 2em;
+
+}

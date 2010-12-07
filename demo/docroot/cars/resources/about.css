@@ -1,0 +1,39 @@
+
+
+@import "section.css";
+
+
+#primary_layout {
+
+  width: 640px;
+
+  margin: 0 auto;
+
+  border: 1px #7F7F7F;
+
+  border-style: none solid;
+
+  padding: 2em 1em;
+
+}
+
+
+#notable_features .feature {
+
+  margin: 0 0 1.5em;
+
+}
+
+
+#multi-match-modes .mode {
+
+  margin: 0 0 0.75em;
+
+}
+
+
+#credit {
+
+  text-align: right;
+
+}

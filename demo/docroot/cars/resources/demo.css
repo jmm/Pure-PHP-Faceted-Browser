@@ -1,0 +1,202 @@
+
+
+@import "section.css";
+
+
+#primary_layout {
+
+  width: 860px;
+
+  margin: 0 auto;
+
+  border: 1px #7F7F7F;
+
+  border-style: none solid;
+
+  padding: 2em 1em;
+
+}
+
+
+#primary_layout:after {
+
+  content: "*";
+
+  font-size: 0;
+
+  line-height: 0;
+
+  height: 0;
+
+  overflow: hidden;
+
+  clear: both;
+
+  display: block;
+
+}
+
+
+#facet_nav,
+#primary_content,
+#demo_def {
+
+  border: 1px #DDDDDD;
+
+}
+
+
+#facet_nav {
+
+  float: left;
+
+  width: 20%;
+
+  border-style: none solid none none;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+#facet_nav a[href] {
+
+  color: #406080;
+
+}
+
+
+#facet_nav .facet > .label {
+
+  font-weight: normal;
+
+  font-size: 1.4em;
+
+}
+
+
+#facet_nav .facet {
+
+  margin: 0 0 2em;
+
+}
+
+
+#facet_nav .facet.range .term_set  {
+
+  margin: 1em 0;
+
+}
+
+
+#facet_nav .facet.range .terms {
+
+  font-size: 1em;
+
+}
+
+
+#facet_nav .term {
+
+  margin: 0 0 0.5em;
+
+}
+
+
+#facet_nav .term.selected .label {
+
+  font-weight: bold;
+
+}
+
+
+#facet_nav .remove_link {
+
+  margin-left: 0.5em;
+
+  text-decoration: none;
+
+}
+
+
+#primary_content {
+
+  float: left;
+
+  border-style: none none none solid;
+
+  margin: 0 0 0 -1px;
+
+  padding: 0 0 0 2%;
+
+  width: 75%;
+
+}
+
+
+#demo_def {
+
+  border-style: none none solid;
+
+  padding: 0 0 0.5em;
+
+  margin: 0 0 1.25em;
+
+}
+
+
+#primary_content .total_results {
+
+  font-size: 1.2em;
+
+}
+
+
+#records {
+
+  margin: 1em 0;
+
+  background-color: #FFFFFF;
+
+  width: 100%;
+
+  padding: 0;
+
+}
+
+
+#records th,
+#records td {
+
+  vertical-align: top;
+
+  text-align: left;
+
+  padding: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+
+#records th {
+
+  font-weight: bold;
+
+}
+
+
+#records tr.odd {
+
+  background-color: #E7E7E7;
+
+}
+
+
+#records td.price,
+#records td.mileage,
+#records td.mpg {
+
+  text-align: right;
+
+}
